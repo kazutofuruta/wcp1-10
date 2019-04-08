@@ -37,6 +37,16 @@ header{
 	color:#FAFAFA;
 }
 
+#drawer-box{
+	display:none;
+	position:relative;
+}
+.drawer-class{
+	display:none;
+}
+
+
+
 /*main-visual作成*/
 .main-visual{
 	width: 100%;
@@ -136,6 +146,466 @@ background-image: url("img 2/sketch.jpg");
 .main-img:nth-child(6){
 	background-image: url("img 2/webcamp-mother.png");
 }
+
+/*フィーチャー作成*/
+.feature{
+	width: 980px;
+	margin:90px auto;
+}
+
+.feature-title{
+	text-align:center;
+	font-size: 32px;
+	color:#000000;
+}
+.feature-border{
+	margin:0 auto;
+	width: 70px;
+	height:8px;
+	border-bottom:3px solid #EC715F;
+}
+
+.feature-title-text{
+	text-align: center;
+	padding: 30px;
+	font-size: 16px;
+	color: #000000;
+}
+
+.feature-main-box{
+	width: 980px;
+	margin:0 auto;
+}
+.feature-box1{
+	width:320px;
+	float:left;
+}
+
+.feature-box2{
+	width:320px;
+	margin: 0 10px;
+	float:left;
+}
+
+.feature-box3{
+	width:320px;
+	float:left;
+}
+
+.social{
+	font-size: 60px;
+	text-align:center;
+}
+
+.feature-box1-title{
+	font-size:20px;
+	color:#000000;
+	text-align:center;
+	padding:10px 0;
+}
+
+.feature-box1-text{
+	font-size:16px;
+	color: #000000;
+}
+
+/*プロフィール作成*/
+.profile{
+	width: 100%;
+	background-color:#ECEFF1;
+	margin:0 auto;
+}
+
+.profile-box{
+	width:1024px;
+	margin:0 auto;
+	padding-bottom:90px;
+}
+
+.profile-title{
+	font-size:32px;
+	color:#000000;
+    text-align:center;
+    padding-top: 90px;
+}
+.profile-border{
+	width: 70px;
+	height:8px;
+	margin:0 auto;
+	border-bottom:3px solid #EC715F;
+}
+
+.profile-title-text{
+	padding:30px 0;
+	text-align: center;
+	font-size: 16px;
+	color:#000000;
+}
+.profile-img-box{
+	width:512px;
+	float:left;
+}
+
+.profile-img{
+	margin:0 auto;
+	width:250px;
+	height: 250px;
+	border-radius: 50%;
+	background-image: url("img 2/my-icon.jpg");
+}
+
+.profile-img-text{
+	width:512px;
+	float:left;
+}
+
+.profile-img-text1-title{
+ font-size:20px;
+ color:#000000;
+}
+
+.profile-img-text1{
+padding-top:5px;
+font-size:16px;
+color:#000000;
+}
+
+.profile-img-text2-title{
+padding-top:20px;
+font-size:20px;
+color:#000000;
+}
+
+.profile-img-text2{
+padding-top: 5px;
+font-size:16px;
+color:#000000;
+}
+
+/*コンタクトを作成する*/
+
+.contact{
+	width: 800px;
+	margin:0 auto;
+	padding-bottom:90px;
+}
+
+.contact-title{
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+	text-align: center;
+}
+
+.contact-border{
+	width: 70px;
+	height:8px;
+	border-bottom: 3px solid #EC715F;
+	margin:0 auto;
+}
+
+.contact-text{
+	font-size: 16px;
+	color:#000000;
+	padding:30px;
+	text-align: center;
+}
+
+.mail-box{
+	width: 400px;
+	float:left;
+}
+
+.mail-title{
+	font-size:20px;
+	text-align:center;
+	padding-bottom:5px;
+}
+
+.address{
+	margin:0 auto;
+	text-align:center;
+	width:200px;
+	border-bottom:3px solid black;
+}
+
+.tell{
+	font-size:20px;
+	padding-top:20px;
+	padding-bottom:5px;
+	text-align:center;
+}
+
+.tell-number{
+	text-align:center;
+	margin:0 auto;
+	width:200px;
+	border-bottom:3px solid black;
+}
+
+.sns-box{
+	width:400px;
+	float:left;
+}
+
+.sns{
+	font-size:20px;
+	padding-bottom:5px;
+	text-align:center;
+}
+
+.social2{
+	font-size:50px;
+	text-align:center;
+	margin:0 auto;
+}
+
+.social2 i:nth-child(2){
+	margin:0 20px;
+}
+.social{
+    text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*footerを作成する*/
+footer{
+	width: 100%;
+	background-color: #EC715F;
+}
+.footer-box{
+	font-size: 16px;
+	color: #FAFAFA;
+	text-align: center;
+    line-height: 60px;
+}
+
+
+
+
+
+
+
+
+
+/*レスポンシブ対応(７６７px以下)*/
+@media screen and (max-width:767px){
+header{
+    width: 90%;
+    margin:0 auto;
+    }
+
+.header-box{
+	width: 100%;
+	height:50px;
+	line-height:50px;
+}
+.header-img{
+	height: 50px;
+}
+
+/*main-visual*/
+.main-visual{
+	width: 90%;
+	margin: 0 auto;
+	height:650px;
+	background-image: url("img 2/code.png");
+}
+
+.main-visual-box1{
+	font-size:40px;
+}
+
+.main-visual-box2{
+	font-size:18px;
+}
+
+
+.main-box{
+	width:90%;
+}
+
+.main-border{
+	padding:8px;
+}
+
+.main-img-box{
+	width:90%;
+	margin: 0 auto;
+}
+.main-img:nth-child(odd){
+	margin: 0;
+	height:0;
+}
+
+.main-img:nth-child(2){
+	margin: 0;
+
+}
+.main-img:nth-child(6){
+	margin-top:10px;
+}
+
+.main-img:nth-child(4){
+	margin-top:10px;
+}
+
+
+.feature{
+	width: 90%;
+}
+
+.feature-main-box{
+width:90%;
+}
+
+.social{
+	padding: 10px 0;
+}
+
+.profile-box{
+	width:90%;
+}
+
+.profile-img-box{
+	margin:0 auto;
+	float: none;
+	width:90%;
+}
+
+.profile-img-text{
+	width:90%;
+	text-align: center;
+	padding-top:20px;
+}
+
+.contact{
+	width: 90%;
+}
+
+.mail-box{
+	width:90%;
+	margin:0 auto;
+	float:none;
+}
+
+.sns-box{
+	width:90%;
+	margin:0 auto;
+	float:none;
+}
+
+
+nav{
+	display:none;
+}
+
+
+
+
+
+#drawer-box{
+	display:block;
+}
+
+#drawer-open{
+	display:block;
+	position:absolute;
+	right:3px;
+	top: 3px;
+	width:30px;
+	height:30px;
+
+	content:"";
+}
+
+#drawer-open span, #drawer-open span:before, #drawer-open span:after{
+	display:block;
+	position:absolute;
+	width:30px;
+	height:5px;
+	border-radius: 3px;
+	background-color: #fff;
+	content:"";
+	cursor:pointer;
+}
+
+#drawer-open span:before{
+	top: 10px;
+}
+
+#drawer-open span:after{
+	top: 20px;
+}
+
+#drawer-close{
+	display:none;
+	position:fixed;
+	right:0;
+	top:0;
+	z-index: 1;
+	width:100%;
+	height:100%;
+	background-color:black;
+	opacity:0;
+}
+
+#drawer-content{
+	position:fixed;
+	right:0;
+	top:0;
+	z-index: 33;
+	width:90%;
+    max-width:200px;
+
+	overflow: scroll;
+	background-color:#fff;
+	transition: .3s ease-in-out;
+	transform:translateX(105%);
+}
+
+#drawer:checked ~ #drawer-close{
+	display: block;
+	opacity: 0.5;
+}
+
+#drawer:checked ~ #drawer-content{
+transform:translateX(0%);
+}
+
+.drawer-text-box{
+	width:90%;
+	margin:10px;
+	background-color:#EC715F;
+	text-align:center;
+}
+.drawer-text-box p{
+	border: 3px solid #fff;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
